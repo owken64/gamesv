@@ -1,7 +1,7 @@
 #pragma once
 
 #define IP_PROXY "localhost"
-#define PORT_PORXY 60000
+#define PORT_PROXY 60000
 
 #define IP_DBSV "localhost"
 #define PORT_DBSV 60001
