@@ -1,3 +1,5 @@
+#include "Network.h"
+
 #include <stdio.h> //printf(), fprintf(), perror()
 #include <sys/socket.h> //socket(), bind(), accept(), listen()
 #include <arpa/inet.h> // struct sockaddr_in, struct sockaddr, inet_ntoa()
