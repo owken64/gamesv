@@ -70,7 +70,7 @@ int NetworkReceive(){
 	select(0, &fds, NULL, NULL, NULL);
 
 	// listenしているサーバで受信した場合
-	if (FD_ISSET(sockAddrForProxy, &fds)){
+	if (FD_ISSET(sockForProxy, &fds)){
     	clitLen = sizeof(sockAddrProxy);
     	// Accept
     	if ((sockProxy = accept(sockForProxy, (struct sockaddr *) &sockAddrProxy, &clitLen)) < 0) {
